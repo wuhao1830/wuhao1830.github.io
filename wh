@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wu Hao | Academic Homepage</title>
+<meta name="description" content="Academic homepage of Wu Hao, School of Earth Sciences, Yunnan University.">
+<style>
+:root{--bg:#f8fafc;--card:#fff;--text:#0f172a;--muted:#475569;--line:#e2e8f0;--soft:#f1f5f9;--accent:#0f172a;--link:#2563eb}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+.container{max-width:1120px;margin:0 auto;padding:0 24px}
+.header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;min-height:72px}
+.brand{font-size:23px;font-weight:700;color:var(--text)}
+.nav{display:flex;gap:24px;font-size:15px}.nav a{color:var(--muted)}.nav a:hover{color:var(--text);text-decoration:none}
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center;padding:84px 0 72px}
+.eyebrow{color:var(--muted);text-transform:uppercase;letter-spacing:.16em;font-size:13px;font-weight:700;margin-bottom:10px}
+h1{margin:0 0 18px;font-size:58px;line-height:1.08}.subtitle{font-size:22px;font-weight:600;margin-bottom:12px}
+.lead{font-size:18px;color:var(--muted);max-width:760px;margin:0}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 18px;border-radius:14px;font-weight:700;font-size:14px;border:1px solid transparent}
+.btn:hover{text-decoration:none}.btn-primary{background:var(--accent);color:#fff}.btn-secondary{background:#fff;color:var(--text);border-color:#cbd5e1}
+.profile-card{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 10px 30px rgba(15,23,42,.05)}
+.avatar{
+  width:92px;
+  height:92px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-bottom:20px;
+  background:#e2e8f0;
+}
+
+.avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+};display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:700;color:#334155;margin-bottom:20px}
+.profile-name{font-size:26px;font-weight:700;margin-bottom:4px}.profile-role{color:var(--muted);margin-bottom:18px}
+.profile-item{padding:10px 0;border-top:1px solid var(--line);font-size:14px}.profile-label{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+section{padding:72px 0;border-top:1px solid var(--line)} section.white{background:#fff}
+.section-title{font-size:34px;margin:0 0 24px}.section-text{font-size:18px;color:var(--muted);max-width:900px}
+.education-grid{display:grid;gap:18px}.edu-card,.publication,.contact-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px 24px}
+.edu-top{display:flex;justify-content:space-between;gap:20px}.edu-degree{font-size:18px;font-weight:700}.edu-school,.edu-date{color:var(--muted)}.edu-date{white-space:nowrap;font-size:14px}
+.interest-list{display:flex;flex-wrap:wrap;gap:10px}.interest{background:#fff;border:1px solid var(--line);padding:9px 14px;border-radius:999px;font-size:14px;font-weight:600}
+.pub-group{margin-top:34px}.pub-group:first-of-type{margin-top:0}.pub-group-title{font-size:20px;margin-bottom:16px}
+.publication{margin-bottom:14px}.publication-title{font-weight:700;margin-bottom:5px}.publication-authors,.publication-venue{color:var(--muted);font-size:15px}.publication-links{margin-top:8px;font-size:14px;font-weight:600}
+.contact-card{max-width:760px}.contact-row{margin:8px 0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}h1{font-size:44px}.nav{display:none}.edu-top{flex-direction:column;gap:6px}.edu-date{white-space:normal}}
+</style>
+</head>
+<body>
+<header class="header"><div class="container header-inner">
+<a class="brand" href="#top">Wu Hao</a>
+<nav class="nav"><a href="#about">About</a><a href="#education">Education</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="container hero">
+<div>
+<div class="eyebrow">Academic Homepage</div>
+<h1>Wu Hao</h1>
+<div class="subtitle">M.S. Student in Cartography and Geographic Information System</div>
+<p class="lead">School of Earth Sciences, Yunnan University, Kunming, China. My research focuses on Interferometric Synthetic Aperture Radar (InSAR), Geographic Information Science (GIS), spatiotemporal analysis, time-series deformation monitoring, and urban infrastructure risk assessment.</p>
+<div class="actions">
+<a class="btn btn-primary" href="#publications">Publications</a>
+<a class="btn btn-secondary" href="mailto:whh_ynu@stu.ynu.edu.cn">Email Me</a>
+<a class="btn btn-secondary" href="https://wuhao1830.github.io" target="_blank" rel="noopener">Personal Website</a>
+</div>
+</div>
+<aside class="profile-card">
+<div class="avatar">
+  <img src="profile.jpg" alt="Wu Hao">
+</div>
+<div class="profile-name">Wu Hao</div>
+<div class="profile-role">M.S. Student · Remote Sensing & GIS</div>
+<div class="profile-item"><span class="profile-label">Affiliation</span>School of Earth Sciences, Yunnan University</div>
+<div class="profile-item"><span class="profile-label">Location</span>Kunming, Yunnan, China</div>
+<div class="profile-item"><span class="profile-label">Email</span><a href="mailto:whh_ynu@stu.ynu.edu.cn">whh_ynu@stu.ynu.edu.cn</a></div>
+<div class="profile-item"><span class="profile-label">Research Focus</span>InSAR · GIS · Urban Deformation</div>
+</aside>
+</div>
+
+<section id="about" class="white"><div class="container">
+<h2 class="section-title">About Me</h2>
+<p class="section-text">I am currently pursuing an M.S. degree in Cartography and Geographic Information System at the School of Earth Sciences, Yunnan University. My research focuses on high-precision InSAR deformation monitoring and the interpretation of urban deformation processes. I am particularly interested in time-series InSAR, spatiotemporal deformation analysis, remote sensing error correction, and urban infrastructure risk assessment.</p>
+</div></section>
+
+<section id="education"><div class="container">
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="edu-card"><div class="edu-top"><div><div class="edu-degree">M.S. in Cartography and Geographic Information System</div><div class="edu-school">School of Earth Sciences, Yunnan University · Kunming, China</div></div><div class="edu-date">Sep 2024 – Present</div></div></div>
+<div class="edu-card"><div class="edu-top"><div><div class="edu-degree">B.S. in Geographic Information Science</div><div class="edu-school">School of Earth Sciences, Yunnan University · Kunming, China</div></div><div class="edu-date">Sep 2020 – Jun 2024</div></div></div>
+</div>
+</div></section>
+
+<section id="research" class="white"><div class="container">
+<h2 class="section-title">Research Interests</h2>
+<div class="interest-list">
+<span class="interest">Interferometric Synthetic Aperture Radar (InSAR)</span>
+<span class="interest">Geographic Information Science (GIS)</span>
+<span class="interest">Spatiotemporal Analysis</span>
+<span class="interest">Time-Series Deformation Monitoring</span>
+<span class="interest">Urban Infrastructure Risk Assessment</span>
+</div>
+</div></section>
+
+<section id="publications"><div class="container">
+<h2 class="section-title">Publications</h2>
+<div class="pub-group"><h3 class="pub-group-title">Journal Papers</h3>
+
+<article class="publication">
+<div class="publication-title">Integrating Sentinel-1 ETAD Into Standard PSI Processing: A Cost-Effective Approach to Phase, Deformation, and Localization Accuracy</div>
+<div class="publication-authors">Yang, M., <strong>Wu, H.*</strong>, Qin, Y., & Chang, L. (2026)</div>
+<div class="publication-venue">IEEE Transactions on Geoscience and Remote Sensing, 64, 5206118.</div>
+<div class="publication-links"><a href="https://doi.org/10.1109/TGRS.2026.3675305" target="_blank" rel="noopener">10.1109/TGRS.2026.3675305</a></div>
+</article>
+
+<article class="publication">
+<div class="publication-title">SE-CAE: A Self-Evolving CAE Framework for Noise-Free InSAR</div>
+<div class="publication-authors">Yang, M., Yu, H., <strong>Wu, H.</strong>, Chang, L., & Yu, H. (2026)</div>
+<div class="publication-venue">IEEE Transactions on Geoscience and Remote Sensing, 64, 5507618.</div>
+<div class="publication-links"><a href="https://doi.org/10.1109/TGRS.2026.3670837" target="_blank" rel="noopener">10.1109/TGRS.2026.3670837</a></div>
+</article>
+
+<article class="publication">
+<div class="publication-title">Teaching Reform of the “Microwave Remote Sensing” Course Integrating Theory, Practice, and Application Under the Guidance of New Engineering Education</div>
+<div class="publication-authors">Yang, M., <strong>Wu, H.</strong>, Liu, R., Zhao, F., Xia, J., Xie, Z., & Liu, H. (2025)</div>
+<div class="publication-venue">Bulletin of Surveying and Mapping, 2025(S2), 196–200, 261.</div>
+<div class="publication-links"><a href="https://doi.org/10.13474/j.cnki.11-2246.2025.S235" target="_blank" rel="noopener">10.13474/j.cnki.11-2246.2025.S235</a></div>
+</article>
+</div>
+
+<div class="pub-group"><h3 class="pub-group-title">Conference Presentations</h3>
+
+<article class="publication">
+<div class="publication-title">Evaluating the Influence of ETAD Product for PSI Estimation</div>
+<div class="publication-authors"><strong>Wu, H.</strong>, Yang, M., & Wen, M. (2024)</div>
+<div class="publication-venue">IEEE International Conference on Signal, Information and Data Processing (ICSIDP), Zhuhai, China, 1112–1117.</div>
+<div class="publication-links"><a href="https://doi.org/10.1109/ICSIDP62679.2024.10869158" target="_blank" rel="noopener">10.1109/ICSIDP62679.2024.10869158</a></div>
+</article>
+
+<article class="publication">
+<div class="publication-title">Revealing Urban Deformation Patterns Through InSAR Time Series Analysis with TCN and Transfer Learning</div>
+<div class="publication-authors">Yang, M., Li, S., Yu, H., <strong>Wu, H.</strong>, & Li, M. (2024)</div>
+<div class="publication-venue">The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVIII-1-2024, 813–820. ISPRS TC I Mid-term Symposium, Changsha, China.</div>
+<div class="publication-links"><a href="https://doi.org/10.5194/isprs-archives-XLVIII-1-2024-813-2024" target="_blank" rel="noopener">10.5194/isprs-archives-XLVIII-1-2024-813-2024</a></div>
+</article>
+</div>
+</div></section>
+
+<section id="contact" class="white"><div class="container">
+<h2 class="section-title">Contact</h2>
+<div class="contact-card">
+<div class="contact-row"><strong>Wu Hao</strong></div>
+<div class="contact-row">School of Earth Sciences, Yunnan University</div>
+<div class="contact-row">Chenggong Campus, Kunming, Yunnan 650500, China</div>
+<div class="contact-row">Email: <a href="mailto:whh_ynu@stu.ynu.edu.cn">whh_ynu@stu.ynu.edu.cn</a></div>
+<div class="contact-row">Personal website: <a href="https://wuhao1830.github.io" target="_blank" rel="noopener">wuhao1830.github.io</a></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="container">© 2026 Wu Hao · Academic Homepage</div></footer>
+</body>
+</html>
